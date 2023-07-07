@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-    Handling of string with annotations
+    Handle of string with annotations
 """
 
 
-def concat(mystring1: str, mystring2: str) -> str:
+def concat(str1: str, str2: str) -> str:
     """
         Args:
-            mystring1: The first string parameter
-            mystring2: The second string parameter
-        
+            str1: The first string parameter
+            str1: The second string parameter
+
         Return:
-            Concanated String
+            Concatenated string
     """
 
-    return mystring1 + mystring2
+    return (str1 + str2)
