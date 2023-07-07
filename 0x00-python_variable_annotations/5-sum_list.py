@@ -5,7 +5,7 @@
 from typing import List
 
 
-def sum_list(input_lis: List[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
         Args:
             input_list: float numbers
@@ -16,7 +16,7 @@ def sum_list(input_lis: List[float]) -> float:
 
     result: float = 0
 
-    for i in input_list:
-        result += i
+    for x in input_list:
+        result += x
 
     return result
